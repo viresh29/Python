@@ -31,3 +31,9 @@ for quant in range(99,0,-1):
 
     print("Take one down and pass it around", suffix)
     print("---")
+
+
+for x in range(20):
+    if(x%2==0):
+        continue
+    print(x)
