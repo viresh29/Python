@@ -15,6 +15,10 @@ CRITICAL: A serious error, indicating that the progeam itself may be unable to c
 
 """
 
+logging.basicConfig(filename='./log/test.log',level=logging.DEBUG,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
+
+
 def add(x, y):
     """Add Function"""
     return x + y
@@ -38,13 +42,13 @@ x = 10
 y = 5
 
 add_result = add(x,y)
-print('Add: {} + {} = {}'.format(x,y,add_result))
+logging.debug('Add: {} + {} = {}'.format(x,y,add_result))
 
 sub_result = subtract(x,y)
-print('Sub: {} - {} = {}'.format(x,y,sub_result))
+logging.debug('Sub: {} - {} = {}'.format(x,y,sub_result))
 
 mul_result = multiply(x,y)
-print('Mul: {} * {} = {}'.format(x,y,mul_result))
+logging.debug('Mul: {} * {} = {}'.format(x,y,mul_result))
 
 div_result = add(x,y)
-print('Div: {} / {} = {}'.format(x,y,div_result))
+logging.debug('Div: {} / {} = {}'.format(x,y,div_result))
