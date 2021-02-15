@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class Vehicle():
+class Vehicle:
     """A vehicle for sale by Jeffco Car Dealership.
 
 
