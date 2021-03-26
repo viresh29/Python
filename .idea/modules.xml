@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../airflow-docker/.idea/airflow-docker.iml" filepath="$PROJECT_DIR$/../airflow-docker/.idea/airflow-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../data-service/.idea/data-service.iml" filepath="$PROJECT_DIR$/../data-service/.idea/data-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../k8s-local/.idea/k8s-local.iml" filepath="$PROJECT_DIR$/../k8s-local/.idea/k8s-local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python-snowflake/.idea/python-snowflake.iml" filepath="$PROJECT_DIR$/../python-snowflake/.idea/python-snowflake.iml" />
     </modules>
   </component>
 </project>

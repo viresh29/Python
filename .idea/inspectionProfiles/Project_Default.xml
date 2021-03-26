@@ -1,0 +1,47 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="airflow" />
+            <item index="1" class="java.lang.String" itemvalue="pendulum" />
+            <item index="2" class="java.lang.String" itemvalue="requests" />
+            <item index="3" class="java.lang.String" itemvalue="cryptography" />
+            <item index="4" class="java.lang.String" itemvalue="confluent-kafka[avro]" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="astronomer.appsflyer_api.sdp_airflow_appsflyer_api.create_dag.*" />
+          <option value="astronomer.appsflyer_api.sdp_airflow_appsflyer_api.appsflyer_callable.*" />
+          <option value="CO.astronomer.dags.bettingengine_api_etl.params.datetime" />
+          <option value="CO.astronomer.dags.bettingengine_api_etl.params.timedelta" />
+          <option value="CO.astronomer.dags.bettingengine_api_etl.params.*" />
+          <option value="TN.astronomer.dags.sports_pool_recap_report.params.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
