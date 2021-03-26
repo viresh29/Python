@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T15:10:20.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="n8ZP7jbH6Ru6B3L9roS6" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T15:16:46.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="VJ7DJsoAgJy4iSqVZFtW" version="14.5.1" type="github">
   <diagram id="03AnSR9fZ_u9oZFeLyIu" name="Encryption Flow">
-    <mxGraphModel dx="1136" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1986" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="83a0xZ_JFiJrhM3jZHGe-23" value="3K Property Reports&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="591.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="83a0xZ_JFiJrhM3jZHGe-27" value="&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;Neo Games Players Endpoint Response with SSN, Driving License, and Passport Numbers&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Encrypt the SSN with others using AWS Secret Manager Encryption Keys before loading to s3 bucket&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;And from the S3 bucket, It moves to the snowflake CustomerIdentifier Table&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;3K Property Reports requires SSN and decrypt the SSN using AWS Secret Manager using Encryption Keys&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="430" width="560" height="99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
