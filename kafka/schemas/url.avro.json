@@ -1,0 +1,10 @@
+{
+    "fields": [
+        {
+            "name": "url",
+            "type": "string"
+        }
+    ],
+    "name": "Url",
+    "type": "record"
+}
