@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/python-test-automation/fetch_github.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
